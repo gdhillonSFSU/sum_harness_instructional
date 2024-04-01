@@ -54,10 +54,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional
+CMAKE_SOURCE_DIR = /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build
+CMAKE_BINARY_DIR = /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -87,14 +87,14 @@ clean: CMakeFiles/sum_indirect.dir/clean
 CMakeFiles/benchmark.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/benchmark.dir/build.make CMakeFiles/benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles --progress-num=1 "Built target benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles --progress-num=1 "Built target benchmark"
 .PHONY : CMakeFiles/benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles 0
 .PHONY : CMakeFiles/benchmark.dir/rule
 
 # Convenience name for target.
@@ -113,14 +113,14 @@ CMakeFiles/benchmark.dir/clean:
 CMakeFiles/sum_direct.dir/all: CMakeFiles/benchmark.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum_direct.dir/build.make CMakeFiles/sum_direct.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum_direct.dir/build.make CMakeFiles/sum_direct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles --progress-num=2,3 "Built target sum_direct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles --progress-num=2,3 "Built target sum_direct"
 .PHONY : CMakeFiles/sum_direct.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sum_direct.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sum_direct.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles 0
 .PHONY : CMakeFiles/sum_direct.dir/rule
 
 # Convenience name for target.
@@ -139,14 +139,14 @@ CMakeFiles/sum_direct.dir/clean:
 CMakeFiles/sum_vector.dir/all: CMakeFiles/benchmark.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum_vector.dir/build.make CMakeFiles/sum_vector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum_vector.dir/build.make CMakeFiles/sum_vector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles --progress-num=6,7 "Built target sum_vector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles --progress-num=6,7 "Built target sum_vector"
 .PHONY : CMakeFiles/sum_vector.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sum_vector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sum_vector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles 0
 .PHONY : CMakeFiles/sum_vector.dir/rule
 
 # Convenience name for target.
@@ -165,14 +165,14 @@ CMakeFiles/sum_vector.dir/clean:
 CMakeFiles/sum_indirect.dir/all: CMakeFiles/benchmark.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum_indirect.dir/build.make CMakeFiles/sum_indirect.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum_indirect.dir/build.make CMakeFiles/sum_indirect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles --progress-num=4,5 "Built target sum_indirect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles --progress-num=4,5 "Built target sum_indirect"
 .PHONY : CMakeFiles/sum_indirect.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sum_indirect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sum_indirect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles 0
 .PHONY : CMakeFiles/sum_indirect.dir/rule
 
 # Convenience name for target.

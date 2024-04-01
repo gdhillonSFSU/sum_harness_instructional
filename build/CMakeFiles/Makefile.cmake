@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/CMakeLists.txt"
+  "/Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/CMakeLists.txt"
   "CMakeFiles/3.29.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.0/CMakeSystem.cmake"
   "/usr/local/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in"

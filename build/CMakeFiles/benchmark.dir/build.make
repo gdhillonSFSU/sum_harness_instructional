@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional
+CMAKE_SOURCE_DIR = /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build
+CMAKE_BINARY_DIR = /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/benchmark.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/benchmark.dir/progress.make
 include CMakeFiles/benchmark.dir/flags.make
 
 CMakeFiles/benchmark.dir/benchmark.cpp.o: CMakeFiles/benchmark.dir/flags.make
-CMakeFiles/benchmark.dir/benchmark.cpp.o: /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/benchmark.cpp
+CMakeFiles/benchmark.dir/benchmark.cpp.o: /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/benchmark.cpp
 CMakeFiles/benchmark.dir/benchmark.cpp.o: CMakeFiles/benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/benchmark.dir/benchmark.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/benchmark.dir/benchmark.cpp.o -MF CMakeFiles/benchmark.dir/benchmark.cpp.o.d -o CMakeFiles/benchmark.dir/benchmark.cpp.o -c /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/benchmark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/benchmark.dir/benchmark.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/benchmark.dir/benchmark.cpp.o -MF CMakeFiles/benchmark.dir/benchmark.cpp.o.d -o CMakeFiles/benchmark.dir/benchmark.cpp.o -c /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/benchmark.cpp
 
 CMakeFiles/benchmark.dir/benchmark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/benchmark.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/benchmark.cpp > CMakeFiles/benchmark.dir/benchmark.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/benchmark.cpp > CMakeFiles/benchmark.dir/benchmark.cpp.i
 
 CMakeFiles/benchmark.dir/benchmark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/benchmark.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/benchmark.cpp -o CMakeFiles/benchmark.dir/benchmark.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/benchmark.cpp -o CMakeFiles/benchmark.dir/benchmark.cpp.s
 
 benchmark: CMakeFiles/benchmark.dir/benchmark.cpp.o
 benchmark: CMakeFiles/benchmark.dir/build.make
@@ -96,6 +96,6 @@ CMakeFiles/benchmark.dir/clean:
 .PHONY : CMakeFiles/benchmark.dir/clean
 
 CMakeFiles/benchmark.dir/depend:
-	cd /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/build/CMakeFiles/benchmark.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/build/CMakeFiles/benchmark.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/benchmark.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/sum_indirect.dir/sum_indirect.cpp.o: \
-  /Users/gurvirdhillon/Documents/csc656/sum_harness_instructional/sum_indirect.cpp \
+  /Users/gurvirdhillon/Documents/csc656/forked_sum_harness/sum_harness_instructional/sum_indirect.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
